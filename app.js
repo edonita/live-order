@@ -126,12 +126,11 @@ app.get('/', (req, res) => {
 <meta charset="utf-8" />
 <title>Live Order Counter</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #f8d7da;
-  --fg: #000000;
-  --muted: rgba(0,0,0,0.6);
-  --accent: #000000;
+  --font: #b86678;
 }
 * { box-sizing: border-box; }
 html, body {
@@ -139,8 +138,8 @@ html, body {
   width: 100%;
   height: 100%;
   background: var(--bg);
-  color: var(--fg);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--font);
+  font-family: Montserrat, sans-serif;
   overflow: hidden;
 }
 .wrap {
@@ -162,7 +161,7 @@ html, body {
   font-size: 2.4vw;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--font);
   margin-bottom: 2vh;
 }
 .count {
@@ -176,7 +175,7 @@ html, body {
   font-size: 3vw;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--font);
 }
 .latest {
   margin-top: 5vh;
@@ -187,7 +186,7 @@ html, body {
 .latest small {
   display: block;
   margin-top: 1vh;
-  color: rgba(0,0,0,0.8);
+  color: var(--font);
   font-size: 2.5vw;
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -213,7 +212,7 @@ html, body {
   position: absolute;
   bottom: 1.2vw;
   right: 1.6vw;
-  color: rgba(0,0,0,0.35);
+  color: var(--font);
   font-size: 0.9vw;
 }
 </style>
