@@ -126,7 +126,7 @@ app.get('/', (req, res) => {
 <meta charset="utf-8" />
 <title>Live Order Counter</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #f8d7da;
@@ -139,7 +139,7 @@ html, body {
   height: 100%;
   background: var(--bg);
   color: var(--font);
-  font-family: Montserrat, sans-serif;
+  font-family: Playfair Display,sans-serif;
   overflow: hidden;
 }
 .wrap {
