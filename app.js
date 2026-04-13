@@ -139,7 +139,7 @@ html, body {
   height: 100%;
   background: var(--bg);
   color: var(--font);
-  font-family: Playfair Display,sans-serif;
+  font-family: Montserrat, sans-serif;
   overflow: hidden;
 }
 .wrap {
@@ -181,6 +181,7 @@ html, body {
   margin-top: 5vh;
   font-size: 2.8vw;
   font-weight: 700;
+  font-family: Playfair Display,sans-serif;
 }
 
 .latest small {
