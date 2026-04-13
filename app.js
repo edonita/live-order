@@ -180,16 +180,18 @@ html, body {
 }
 .latest {
   margin-top: 5vh;
-  font-size: 2.4vw;
+  font-size: 2.8vw;
   font-weight: 700;
 }
+
 .latest small {
   display: block;
-  margin-top: 1.2vh;
-  color: var(--muted);
-  font-size: 1.5vw;
-  font-weight: 400;
-  letter-spacing: 0.04em;
+  margin-top: 1vh;
+  color: rgba(0,0,0,0.8);
+  font-size: 2.5vw;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
 }
 .right {
   display: flex;
