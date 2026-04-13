@@ -4,7 +4,10 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Server is running 🚀');
+  res.send(`
+    <h1>Live Orders App</h1>
+    <p>App is connected successfully.</p>
+  `);
 });
 
 app.post('/webhooks/orders-create', (req, res) => {
